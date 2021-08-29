@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+
+body{
+    background-image: linear-gradient(to right, rgba(180, 133, 233, 0.267), rgba(19, 149, 255, 0.424));
+    
+}
+h1{font-family: 'Montserrat', sans-serif;
+    color: purple;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+.logo {
+    
+    display: block;
+    align-items: center;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+}
+
+.container{
+    font-family: 'Montserrat', sans-serif;
+    background: url('/w1.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 900px;
+    filter: hue-rotate(55deg);    
+    border:2px solid slateblue;
+
+    height: 60vh;
+    margin: auto;
+    overflow-y: auto;
+    margin-bottom: 23px;
+}
+.message{
+    
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+.right{
+    float:right  ;
+    clear: both;
+    background-color:  #a9d4fe;;
+    color:purple;
+    
+    
+}
+.left{background-color: #a9d4fe;
+    color: black;
+    float:left ;
+    clear: both;
+}
+#send-container{
+    text-align: center; 
+    max-width: 985px;
+    width: 100%;
+    margin: auto;
+    display: block;
+      
+}
+#messageInp{
+    font-family: 'Lato', sans-serif;
+    width: 85%;
+    border:2px solid blueviolet;
+    border-radius: 26px;
+    margin-top: 4px;
+    height: 34px;    
+    outline: none;
+    /* background-color: silver; */
+    background: none;
+
+}
+
+@media (min-width:280px) { 
+    #messageInp  {
+        width: 60%;   
+     }
+     }
+@media (min-width:360px) and (max-width:500px) { 
+    #messageInp  {
+        width: 70%;
+}
+}
+
+@media (min-width:500px) and (max-width:700px) { 
+    #messageInp  {
+        width: 70%;
+    }
+    @media (min-width:700px) and (max-width:1030px) { 
+        #messageInp  {
+            width: 85%;
+    } }
+        }
+
+    @media (min-width:1030px) and (max-width:3000px) { 
+        #messageInp  {
+            width: 85%;
+    }
+        }
+.btn{
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(204, 170, 228);
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid indigo;
+    border-radius: 20px;
+    height: 39px;
+    font-size: 16px;
+    width: 55px;
+
+}
